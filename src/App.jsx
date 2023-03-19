@@ -22,23 +22,37 @@ function App() {
   const handleHomeClick = () => {
     setShowCareer(false);
   };
-
   return (
+
+
     <Router>
       <div className="">
         <div className="navbar bg-base-100">
           <div className="flex-1">
-            <Link to='/' className="btn btn-ghost normal-case text-xl" onClick={handleHomeClick}>Logo.</Link>
+          <Link to='/' className="btn btn-ghost normal-case text-xl" onClick={handleHomeClick}>Logo.</Link>
           </div>
           <div className="flex-none">
             <ul className="menu menu-horizontal px-1">
-              <li><Link to='/' onClick={handleHomeClick}>Home</Link></li>
-              <li><a href='#mission'>Mission</a></li>
-              <li><a href="#service">Service</a></li>
-              <li><Link to='/career' onClick={handleCareerClick}>Career</Link></li>
+              <li>
+              <Link to='/' onClick={handleHomeClick}>Home</Link>
+              </li>
+              <li tabIndex={0}>
+                <a>
+                  Drop
+                  <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+                </a>
+                <ul className="p-2 bg-base-100">
+                  <li><a href='#mission'>Mission</a></li>
+                  <li><a href="#service">Service</a></li>
+                </ul>
+              </li>
+              <li>
+              <Link to='/career' onClick={handleCareerClick}>Career</Link>
+              </li>
             </ul>
           </div>
         </div>
+
         {!showCareer && (
           <>
             <Hero />
@@ -46,7 +60,7 @@ function App() {
             <Explore />
             <Mission />
             <Features />
-            <Service/>
+            <Service />
             <Projects />
             <Footer />
           </>
