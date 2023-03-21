@@ -14,27 +14,34 @@ import Service from './Components/Service';
 
 function App() {
   const [showCareer, setShowCareer] = useState(false);
+  const [showService, setShowService] = useState(false);
 
   const handleCareerClick = () => {
     setShowCareer(true);
+    setShowService(false);
   };
 
   const handleHomeClick = () => {
     setShowCareer(false);
+    setShowService(false);
   };
+
+  const handleServiceClick = () => {
+    setShowCareer(false);
+    setShowService(true);
+  };
+
   return (
-
-
     <Router>
       <div className="">
         <div className="navbar bg-base-100">
           <div className="flex-1">
-          <Link to='/' className="btn btn-ghost normal-case text-xl" onClick={handleHomeClick}>Logo.</Link>
+            <Link to='/' className="btn btn-ghost normal-case text-xl" onClick={handleHomeClick}>Logo.</Link>
           </div>
           <div className="flex-none">
             <ul className="menu menu-horizontal px-1">
               <li>
-              <Link to='/' onClick={handleHomeClick}>Home</Link>
+                <Link to='/' onClick={handleHomeClick}>Home</Link>
               </li>
               <li tabIndex={0}>
                 <a>
@@ -43,24 +50,23 @@ function App() {
                 </a>
                 <ul className="p-2 bg-base-100">
                   <li><a href='#mission'>Mission</a></li>
-                  <li><a href="#service">Service</a></li>
+                  <li><Link to="/service" onClick={handleServiceClick}>Service</Link></li>
                 </ul>
               </li>
               <li>
-              <Link to='/career' onClick={handleCareerClick}>Career</Link>
+                <Link to='/career' onClick={handleCareerClick}>Career</Link>
               </li>
             </ul>
           </div>
         </div>
 
-        {!showCareer && (
+        {(!showCareer && !showService) && (
           <>
             <Hero />
+            <Mission />
             <Journey />
             <Explore />
-            <Mission />
             <Features />
-            <Service />
             <Projects />
             <Footer />
           </>
@@ -69,6 +75,9 @@ function App() {
         <Routes>
           {showCareer && (
             <Route exact path='/career' element={<Career />} ></Route>
+          )}
+          {showService && (
+            <Route exact path='/service' element={<Service />} ></Route>
           )}
         </Routes>
       </div>
