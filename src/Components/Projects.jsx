@@ -4,11 +4,11 @@ function Projects() {
   return (
     <div>
       <div className="bg-gray-100 py-10">
-        <div className="max-w-7xl mx-auto px-2 lg:px-5">
+        <div className="max-w-7xl mx-auto px-8 ">
           <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
-            Previous Works
+            Our Products
           </h1>
-          <div className="grid gap-3 mb-2 lg:flex">
+          <div className="grid md:grid-cols-3 gap-3 justify-items-center lg:flex">
             <div className="card w-96 bg-base-100 shadow-xl">
               <figure>
                 <img
@@ -17,7 +17,7 @@ function Projects() {
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">Work 1</h2>
+                <h2 className="card-title">Product 1</h2>
                 <p>If a dog chews shoes whose shoes does he choose</p>
                 <div className="card-actions justify-end">
                 </div>
@@ -31,7 +31,7 @@ function Projects() {
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">Work 2</h2>
+                <h2 className="card-title">Product 2</h2>
                 <p>If a dog chews shoes whose shoes does he choose</p>
                 <div className="card-actions justify-end">
                 </div>
@@ -45,7 +45,7 @@ function Projects() {
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">Work 3</h2>
+                <h2 className="card-title">Product 3</h2>
                 <p>If a dog chews shoes whose shoes does he choose</p>
                 <div className="card-actions justify-end">
                 </div>

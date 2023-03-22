@@ -78,7 +78,6 @@ function Career() {
 
       {/* box section  */}
       <div className="p-6">
-        <div className="p-12  bg-violet-500 rounded-lg text-center">
           <div className="overflow-x-auto">
             <table className="table w-full">
               {/* head */}
@@ -115,7 +114,6 @@ function Career() {
               </tbody>
             </table>
           </div>
-        </div>
       </div>
       {/* box section end */}
 

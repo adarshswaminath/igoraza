@@ -64,7 +64,6 @@ function App() {
           <>
             <Hero />
             <Mission />
-            <Journey />
             <Explore />
             <Features />
             <Projects />
