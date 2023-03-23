@@ -33,7 +33,7 @@ function App() {
 
   return (
     <Router>
-      <div className="">
+      <div className="overflow-x-hidden">
         <div className="navbar bg-base-200">
           <div className="navbar-start">
             <div className="dropdown">

@@ -20,16 +20,16 @@ function Career() {
   return (
     <div className="bg-gray-100">
       {/* hero section starts */}
-      <div className="hero py-16  lg:py-24 bg-white">
+      <div className="hero py-16  bg-white">
         <div className="container flex flex-col lg:flex-row items-center justify-between">
           <div className="flex-1 lg:mr-16">
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6 lg:mb-12">
               Join our team
             </h1>
-            <p className="text-lg lg:text-xl text-gray-600 mb-6 lg:mb-12">
-              We're looking for talented individuals who want to make a difference.
+            <p className="text-lg lg:text-xl text-gray-600 mb-3 lg:mb-12">
+              We're looking for talented individuals <br/>.Who want to make a difference.
             </p>
-            <button className="btn bg-violet-500 hover:bg-violet-600 border-none text-lg lg:text-xl rounded-full px-6 py-3">
+            <button className="btn bg-violet-500 hover:bg-violet-600 border-none text-lg lg:text-xl rounded-full px-6 py-3 mb-2">
               Apply Now
             </button>
           </div>
@@ -41,7 +41,7 @@ function Career() {
       {/* hero section ends */}
       {/* <------ value we live starts -------> */}
       <div className="text-center">
-        <div className="hero min-h-screen bg-base-200">
+        <div className="hero  bg-base-200">
           <div className="hero-content flex-col lg:flex-row">
             <img src={image} className="max-w-sm rounded-lg shadow-2xl" />
             <div>
