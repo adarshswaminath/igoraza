@@ -6,10 +6,10 @@ function Hero() {
       <section className="text-gray-700 bg-gray-100">
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
           <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-            <h1 className="text-3xl mt-12 sm:text-6xl font-bold leading-56 uppercase font-raleway">
+            <h1 className="text-3xl mt-14 sm:text-6xl font-bold leading-56 uppercase font-raleway">
               WELCOME TO IGORAZA
             </h1>
-            <p className="mt-6 mb-8 text-lg sm:mb-12">
+            <p className="mt-3 mb-8 text-lg sm:mb-12">
               Start with something simple and small,then expand over time
             </p>
             <div className="">
