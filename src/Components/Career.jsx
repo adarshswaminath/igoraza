@@ -92,7 +92,9 @@ function Career() {
       {/* box section  */}
       <div id="igoraza-career">
         <div className="p-6 text-white">
-        <h1 className="title text-gray-500 p-3 text-3xl">Igoraza Career</h1>
+        <h1 className="text-4xl font-bold text-center md:text-left mb-8 text-black">
+            IGORAZA Careers
+          </h1>
           {/* heading */}
           <div className="grid ">
             <div className="p-3 flex gap-3 justify-between font-semibold bg-gray-400">
@@ -106,7 +108,7 @@ function Career() {
                 <div>{obj.role}</div>
                 <div>{obj.location}</div>
                 <div>{obj.type}</div>
-                <div><button className="btn bg-violet-500 border-none rounded-full hover:bg-white hover:text-violet-500">Click</button></div>
+                <div><button className="btn font-semibold bg-transparent text-black rounded-full hover:bg-white hover:text-violet-500 hover:border-violet-500">Click</button></div>
               </div>
             ))}
           </div>
