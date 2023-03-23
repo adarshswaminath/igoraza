@@ -4,7 +4,7 @@ import MissionImg from './images/mission.svg';
 
 function Mission() {
   return (
-    <div className="bg-gray-100" id='mission'>
+    <div className="bg-gray-100 mt-4" id='mission'>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row">
         <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0">
           <img
