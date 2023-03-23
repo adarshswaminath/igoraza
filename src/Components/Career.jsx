@@ -2,12 +2,25 @@ import React from 'react';
 import heroImg from './images/career-hero.svg';
 import image from "./images/mission.svg"
 import Footer from "./Footer"
-
 function Career() {
+  const data = [
+    { role: "Delivery Manager", location: 'India', type: "Full Time" },
+    { role: "NodeJS Developer", location: 'India', type: "Full Time" },
+    { role: "React.JS Developers", location: 'India', type: "Full Time" },
+    { role: "MERN Stack Developer", location: 'India', type: "Full Time" },
+    { role: "Project Manager", location: 'India', type: "Full Time" },
+    { role: "Python Developer", location: 'India', type: "Full Time" },
+    { role: "UI/UX Designer", location: 'India', type: "Full Time" },
+    { role: "Blockchain Developer", location: 'India', type: "Full Time" },
+
+  ]
+
+
+
   return (
     <div className="bg-gray-100">
       {/* hero section starts */}
-      <div className="hero py-16 p-4 lg:py-24 bg-white">
+      <div className="hero py-16  lg:py-24 bg-white">
         <div className="container flex flex-col lg:flex-row items-center justify-between">
           <div className="flex-1 lg:mr-16">
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6 lg:mb-12">
@@ -77,43 +90,24 @@ function Career() {
       {/* <------ value we live ends -------> */}
 
       {/* box section  */}
-      <div className="p-6">
-          <div className="overflow-x-auto">
-            <table className="table w-full">
-              {/* head */}
-              <thead>
-                <tr>
-                  <th></th>
-                  <th>Name</th>
-                  <th>Job</th>
-                  <th>Favorite Color</th>
-                </tr>
-              </thead>
-              <tbody>
-                {/* row 1 */}
-                <tr>
-                  <th>1</th>
-                  <td>Cy Ganderton</td>
-                  <td>Quality Control Specialist</td>
-                  <td>Blue</td>
-                </tr>
-                {/* row 2 */}
-                <tr>
-                  <th>2</th>
-                  <td>Hart Hagerty</td>
-                  <td>Desktop Support Technician</td>
-                  <td>Purple</td>
-                </tr>
-                {/* row 3 */}
-                <tr>
-                  <th>3</th>
-                  <td>Brice Swyre</td>
-                  <td>Tax Accountant</td>
-                  <td>Red</td>
-                </tr>
-              </tbody>
-            </table>
+      <div className="p-6 text-center text-white">
+        {/* heading */}
+        <div className="grid ">
+          <div className="p-3 flex gap-3 justify-between font-semibold bg-gray-400">
+            <div>Role</div>
+            <div>Location</div>
+            <div>Type</div>
+            <div>Detils</div>
           </div>
+          {data.map((obj, index) => (
+          <div key={index} className="p-3 flex gap-3 justify-between text-gray-600 border-b-2">
+            <div>{obj.role}</div>
+            <div>{obj.location}</div>
+            <div>{obj.type}</div>
+            <div><button className="btn bg-violet-500 border-none rounded-full hover:bg-white hover:text-violet-500">Click</button></div>
+          </div>
+         ))}
+        </div>
       </div>
       {/* box section end */}
 
