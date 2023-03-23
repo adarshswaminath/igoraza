@@ -40,8 +40,8 @@ function Career() {
       </div>
       {/* hero section ends */}
       {/* <------ value we live starts -------> */}
-      <div className="text-center">
-        <div className="hero  bg-base-200">
+      <div className="">
+        <div className="hero bg-base-200">
           <div className="hero-content flex-col lg:flex-row">
             <img src={image} className="max-w-sm rounded-lg shadow-2xl" />
             <div>
@@ -49,7 +49,7 @@ function Career() {
               <p className="py-3 text-gray-500">"The future doesn't belong to the fainthearted; it belongs to the brave."</p>
 
               <div className="grid gap-3">
-                <div className="flex justify-center gap-2">
+                <div className="flex gap-2">
                   {/* box 1 */}
                   <button className="p-3 relative inline-flex items-center justify-start overflow-hidden transition-all bg-white rounded hover:bg-white group">
                     <span className="w-0 h-0 rounded bg-violet-600 absolute top-0 left-0 ease-out duration-500 transition-all group-hover:w-full group-hover:h-full -z-1"></span>
@@ -65,7 +65,7 @@ function Career() {
                     </span>
                   </button>
                 </div>
-                <div className="flex justify-center gap-2">
+                <div className="flex gap-2">
                   {/* box 3 */}
                   <button className="p-3 relative inline-flex items-center justify-start overflow-hidden transition-all bg-white rounded hover:bg-white group">
                     <span className="w-0 h-0 rounded bg-purple-600 absolute top-0 left-0 ease-out duration-500 transition-all group-hover:w-full group-hover:h-full -z-1"></span>

@@ -13,7 +13,8 @@ function Hero() {
               Start with something simple and small,then expand over time
             </p>
             <div className="">
-              <button className="px-8 py-4 border-2 border-gray-500 text-black hover:bg-violet-500 hover:text-white hover:border-none font-bold">Get Started</button>
+              <button 
+              className="px-12 py-3 border-2 border-gray-500 text-black hover:bg-violet-500 hover:text-white hover:border-none font-bold">Get Started</button>
             </div>
           </div>
           <div className="flex items-center justify-center p-6 mt-6 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
