@@ -1,5 +1,5 @@
 import React from "react";
-
+import banner from "./images/banner.png"
 function Explore() {
   return (
     <div>
@@ -13,7 +13,8 @@ function Explore() {
           </p>
           <div className="lg:flex">
             <img
-              src="https://i.ibb.co/R7nYg3F/features-bg.png"
+  
+              src={banner}
               alt="features-bg"
               className="rounded-lg shadow-2xl mx-auto lg:mr-8 mb-8 lg:mb-0 lg:max-w-md"
             />
@@ -29,7 +30,6 @@ function Explore() {
                   </div>
                 </div>
               </div>
-              <button className="btn bg-violet-500 border-none">Get Started</button>
             </div>
           </div>
         </div>

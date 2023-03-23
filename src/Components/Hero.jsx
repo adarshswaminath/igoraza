@@ -1,5 +1,4 @@
 import React from "react";
-
 function Hero() {
   return (
     <div>
@@ -19,8 +18,7 @@ function Hero() {
           </div>
           <div className="flex items-center justify-center p-6 mt-6 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
             <img
-              // src="https://mambaui.com/assets/svg/Business_SVG.svg"
-              src="https://i.ibb.co/KF0PJjP/qr.jpg"
+              src="https://mambaui.com/assets/svg/Business_SVG.svg"
               alt=""
               className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
             />
