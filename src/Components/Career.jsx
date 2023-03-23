@@ -27,11 +27,11 @@ function Career() {
               Join our team
             </h1>
             <p className="text-lg lg:text-xl text-gray-600 mb-3 lg:mb-12">
-              We're looking for talented individuals <br/>.Who want to make a difference.
+              We're looking for talented individuals <br />.Who want to make a difference.
             </p>
-            <button className="btn bg-violet-500 hover:bg-violet-600 border-none text-lg lg:text-xl rounded-full px-6 py-3 mb-2">
+            <a href="#igoraza-career" className="btn bg-violet-500 hover:bg-violet-600 border-none text-lg lg:text-xl rounded-full px-6 py-3 mb-2">
               Apply Now
-            </button>
+            </a>
           </div>
           <div className="flex-1">
             <img src={heroImg} alt="Hero" className="mx-auto lg:max-w-none rounded-lg shadow-lg" />
@@ -46,7 +46,7 @@ function Career() {
             <img src={image} className="max-w-sm rounded-lg shadow-2xl" />
             <div>
               <h1 className="text-3xl font-bold">The values we live by,</h1>
-              <p className="py-3 text-gray-500">"The future doesn't belong to the fainthearted; it belongs to the brave."</p>
+              <p className="py-3 text-gray-500">"The future doesn't belong to the fainthearted; <br />It belongs to the brave."</p>
 
               <div className="grid gap-3">
                 <div className="flex gap-2">
@@ -90,23 +90,26 @@ function Career() {
       {/* <------ value we live ends -------> */}
 
       {/* box section  */}
-      <div className="p-6 text-center text-white">
-        {/* heading */}
-        <div className="grid ">
-          <div className="p-3 flex gap-3 justify-between font-semibold bg-gray-400">
-            <div>Role</div>
-            <div>Location</div>
-            <div>Type</div>
-            <div>Detils</div>
+      <div id="igoraza-career">
+        <div className="p-6 text-white">
+        <h1 className="title text-gray-500 p-3 text-3xl">Igoraza Career</h1>
+          {/* heading */}
+          <div className="grid ">
+            <div className="p-3 flex gap-3 justify-between font-semibold bg-gray-400">
+              <div>Role</div>
+              <div>Location</div>
+              <div>Type</div>
+              <div>Detils</div>
+            </div>
+            {data.map((obj, index) => (
+              <div key={index} className="p-3 flex gap-3 justify-between text-gray-600 border-b-2">
+                <div>{obj.role}</div>
+                <div>{obj.location}</div>
+                <div>{obj.type}</div>
+                <div><button className="btn bg-violet-500 border-none rounded-full hover:bg-white hover:text-violet-500">Click</button></div>
+              </div>
+            ))}
           </div>
-          {data.map((obj, index) => (
-          <div key={index} className="p-3 flex gap-3 justify-between text-gray-600 border-b-2">
-            <div>{obj.role}</div>
-            <div>{obj.location}</div>
-            <div>{obj.type}</div>
-            <div><button className="btn bg-violet-500 border-none rounded-full hover:bg-white hover:text-violet-500">Click</button></div>
-          </div>
-         ))}
         </div>
       </div>
       {/* box section end */}
