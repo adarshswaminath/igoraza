@@ -16,7 +16,7 @@ function Explore() {
   
               src={banner}
               alt="features-bg"
-              className="rounded-lg shadow-2xl mx-auto lg:mr-8 mb-8 lg:mb-0 lg:max-w-md"
+              className="rounded-lg shadow-2xl mx-auto lg:mr-4 mb-8 lg:mb-0 lg:max-w-md"
             />
             <div className="lg:flex-1">
               <h1 className="text-4xl font-bold mb-8">
