@@ -23,7 +23,7 @@ function Projects() {
                 </div>
               </div>
             </div>
-            <div className="card w-80 bg-base-100 shadow-xl">
+            <div className="card w-72 bg-base-100 shadow-xl">
               <figure>
                 <img
                   src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
