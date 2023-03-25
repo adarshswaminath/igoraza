@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 // import components
-import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import Explore from './Components/Explore';
 import Journey from './Components/Journey';
@@ -12,7 +11,10 @@ import Projects from './Components/Projects';
 import Career from './Components/Career';
 import Service from './Components/Service';
 
+
 function App() {
+  const [navbarOpen, setNavbarOpen] = useState(false);
+
   const [showCareer, setShowCareer] = useState(false);
   const [showService, setShowService] = useState(false);
 
@@ -34,7 +36,53 @@ function App() {
   return (
     <Router>
       <div className="overflow-x-hidden">
-        <div className="navbar bg-base-200">
+        <nav className="relative navbar flex flex-wrap items-center justify-between px-2 py-3">
+          <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+            <div className="w-full relative flex justify-between lg:w-auto lg:static lg:justify-start">
+              <div className="flex">
+                <div>
+                  <img src="https://flowbite.com/docs/images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
+                </div>
+                <div>
+                  <a className="font-bold text-xl text-gray-600 ">IGORAZA</a>
+                </div>
+              </div>
+              <button
+                className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                type="button"
+                onClick={() => setNavbarOpen(!navbarOpen)}
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+              </button>
+            </div>
+            <div
+              className={
+                "lg:flex flex-grow items-center" +
+                (navbarOpen ? " flex" : " hidden")
+              }
+              id="example-navbar-danger"
+            >
+              <ul className="flex flex-col lg:flex-row list-none lg:ml-auto gap-4">
+                <li className="nav-item mr-6">
+                  <Link to='/' onClick={handleHomeClick} className="block pl-4 text-black rounded md:bg-transparent md:text-violet-500 md:p-0 " aria-current="page">Home</Link>
+                </li>
+                <li className="nav-item mr-6">
+                  <a href="#mission" className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0  ">Mission</a>
+                </li>
+                <li className="nav-item mr-6">
+                  <Link to="/service" onClick={handleServiceClick} className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0">Services</Link>
+                </li>
+                <li className="nav-item mr-6">
+                <Link to='/career' onClick={handleCareerClick} className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0 ">Career</Link>
+                </li>
+                <li className="nav-item mr-6">
+                <a href="#contact" className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0 ">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        {/* <div className="navbar bg-base-200">
           <div className="navbar-start">
             <img src="https://flowbite.com/docs/images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
           </div>
@@ -56,43 +104,12 @@ function App() {
               </label>
             </div>
           </div>
-        </div>
-
-        {/* <nav class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded text-gray-500">
-          <div class="container flex flex-wrap items-center justify-between mx-auto">
-            <a href="#" class="flex items-center">
-              <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
-              <span class="self-center text-xl font-semibold whitespace-nowrap">IGORAZA</span>
-            </a>
-            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-default" aria-expanded="false">
-              <span class="sr-only">Open main menu</span>
-              <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-            </button>
-            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-              <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white">
-                <li>
-                  <Link to='/' onClick={handleHomeClick} class="block py-2 pl-3 pr-4 text-white bg-violet-500 rounded md:bg-transparent md:text-violet-500 md:p-0" aria-current="page">Home</Link>
-                </li>
-                <li>
-                  <a href="#mission" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0  ">Mission</a>
-                </li>
-                <li>
-                  <Link to="/service" onClick={handleServiceClick} class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0">Services</Link>
-                </li>
-                <li>
-                  <Link to='/career' onClick={handleCareerClick} class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0 ">Career</Link>
-                </li>
-                <li>
-                  <a href="#contact" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0 ">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav> */}
+        </div> */}
 
 
         {(!showCareer && !showService) && (
           <>
+            {/* <Navbar/>? */}
             <Hero />
             <Mission />
             <Explore />

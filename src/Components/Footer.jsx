@@ -18,7 +18,7 @@ function Footer() {
           </svg>
           <p className="font-bold">
             IGORAZA Ltd. <br />
-            Providing reliable tech since 1992
+            Providing reliable tech since 2023
           </p>
           <p>Copyright © 2023 - All right reserved</p>
         </div>
