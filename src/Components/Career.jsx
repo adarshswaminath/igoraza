@@ -42,7 +42,7 @@ function Career() {
       {/* <------ value we live starts -------> */}
       <div className="">
         <div className="hero bg-base-200">
-          <div className="hero-content flex-col lg:flex-row">
+          <div className="hero-content flex-col justify-center items-center lg:flex-row">
             <img src={image} className="max-w-sm rounded-lg shadow-2xl" />
             <div>
               <h1 className="text-3xl font-bold">The values we live by,</h1>
@@ -104,7 +104,7 @@ function Career() {
               <div>Detils</div>
             </div>
             {data.map((obj, index) => (
-              <div key={index} className="p-3 flex gap-3 justify-between text-gray-600 border-b-2">
+              <div key={index} className="p-3 flex gap-3 justify-between text-gray-600 text-sm border-b-2">
                 <div>{obj.role}</div>
                 <div>{obj.location}</div>
                 <div>{obj.type}</div>

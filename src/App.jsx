@@ -44,16 +44,16 @@ function App() {
           </div>
           <div className="navbar-end">
             <div className="dropdown">
-              <label tabIndex={0} className="btn btn-ghost btn-circle">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-              </label>
-              <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 ">
+              <ul tabIndex={0} className="menu menu-compact dropdown-content mt-4 p-4 shadow bg-base-100 rounded-box w-52 ">
                 <li><Link to='/' onClick={handleHomeClick} className="block py-2 pl-6 text-white bg-violet-500 rounded md:bg-transparent md:text-violet-500 md:p-0" aria-current="page">Home</Link></li>
                 <li><a href="#mission" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0  ">Mission</a></li>
                 <li> <Link to="/service" onClick={handleServiceClick} className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0">Services</Link></li>
                 <li><Link to='/career' onClick={handleCareerClick} className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0 ">Career</Link></li>
                 <li><a href="#contact" className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0 ">Contact</a></li>
               </ul>
+              <label tabIndex={0} className="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+              </label>
             </div>
           </div>
         </div>
