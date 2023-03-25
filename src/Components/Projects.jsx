@@ -45,7 +45,7 @@ function Projects() {
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">Product 2</h2>
+                <h2 className="card-title">Product 3</h2>
                 <p>If a dog chews shoes whose shoes does he choose</p>
                 <div className="card-actions justify-end">
                 </div>
