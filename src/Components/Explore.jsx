@@ -23,7 +23,7 @@ function Explore() {
                 Powerful suite of tools
               </h1>
               <div className="mb-3">
-                <div className="card w-80 bg-base-400 shadow-xl">
+                <div className="card w-82 bg-base-400 shadow-xl">
                   <div className="card-body">
                     <h2 className="card-title">Building the Simple ecosystem</h2>
                     <p>Take Collaboration to the next level with security and administrative features built for teams</p>
