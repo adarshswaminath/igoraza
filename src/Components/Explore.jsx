@@ -11,7 +11,7 @@ function Explore() {
             cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
             cupidatat.
           </p>
-          <div className="lg:flex">
+          <div className="lg:flex gap-4">
             <img
   
               src={banner}

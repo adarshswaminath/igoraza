@@ -5,6 +5,11 @@ import MissionImg from './images/mission.svg';
 function Mission() {
   return (
     <div className="bg-gray-100 pt-2 mb-4" id='mission'>
+        <div className="flex items-center justify-center p-3">
+        <h1 className="text-4xl font-bold text-center md:text-left mb-8 ">
+            Mission & Vision
+          </h1>
+        </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row">
         <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0">
           <img
@@ -14,9 +19,6 @@ function Mission() {
           />
         </div>
         <div className="md:w-1/2 flex flex-col justify-center">
-          <h1 className="text-4xl font-bold text-center md:text-left mb-8">
-            Mission & Vision
-          </h1>
           <div className="grid grid-cols-1 gap-8">
             <div className="bg-base-200 shadow-2xl rounded-lg px-8 py-6">
               <div className="flex gap-2 text-3xl">

@@ -17,6 +17,11 @@ function Mission() {
                 </div>
             </div>
             <div className="bg-gray-100 py-10 min-h-screen">
+            <div className="flex items-center justify-center">
+                    <h1 className="text-4xl font-bold text-center md:text-left mb-8">
+                        Our Service
+                    </h1>
+                </div>
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row">
                     <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0">
                         <img
@@ -26,9 +31,6 @@ function Mission() {
                         />
                     </div>
                     <div className="md:w-1/2 flex flex-col justify-center">
-                        <h1 className="text-4xl font-bold text-center md:text-left mb-8">
-                            Our Service
-                        </h1>
                         <div className="grid grid-cols-1  lg:flex">
                             <div className="bg-violet-500 text-white rounded-lg shadow-lg p-6">
                                 <MdOutlineDeveloperMode className="text-4xl mb-4" />

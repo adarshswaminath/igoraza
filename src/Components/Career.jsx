@@ -105,7 +105,7 @@ function Career() {
             </div>
             {data.map((obj, index) => (
               <div key={index} className="p-3 flex gap-3 justify-between text-gray-600 text-sm border-b-2">
-                <div>{obj.role}</div>
+                <div>{obj.role.split(" ").map((word, i) => <div key={i}>{word}</div>)}</div>
                 <div>{obj.location}</div>
                 <div>{obj.type}</div>
                 <div><button className="btn font-semibold bg-transparent text-black rounded-full hover:bg-white hover:text-violet-500 hover:border-violet-500">Click</button></div>
