@@ -24,24 +24,28 @@ function App() {
     setShowCareer(true);
     setShowService(false);
     setShowMission(false);
+    setNavbarOpen(!navbarOpen)
   };
 
   const handleHomeClick = () => {
     setShowCareer(false);
     setShowService(false);
     setShowMission(false);
+    setNavbarOpen(!navbarOpen)
   };
 
   const handleServiceClick = () => {
     setShowCareer(false);
     setShowService(true);
     setShowMission(false);
+    setNavbarOpen(!navbarOpen)
   };
 
   const handleMissionClick = () => {
     setShowCareer(false);
     setShowService(false);
     setShowMission(true);
+    setNavbarOpen(!navbarOpen)
   }
 
   return (
@@ -88,7 +92,7 @@ function App() {
                   <Link to='/career' onClick={handleCareerClick} className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0 ">Career</Link>
                 </li>
                 <li className="nav-item mr-6">
-                  <a href="#contact" className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0 ">Contact</a>
+                  <a href="#contact" onClick={() => setNavbarOpen(!navbarOpen)} className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0 ">Contact</a>
                 </li>
               </ul>
             </div>
