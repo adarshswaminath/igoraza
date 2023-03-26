@@ -3,17 +3,16 @@ import { SiHiveBlockchain } from "react-icons/si"
 import { CgWebsite } from "react-icons/cg"
 import { MdOutlineDeveloperMode } from 'react-icons/md'
 import MissionImg from './images/service.svg';
-import Footer from "./Footer";
+
 
 function Mission() {
     return (
         <div>
             <div className="hero min-h-screen bg-white text-gray-600" >
-                <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
-                        <h1 className="mb-5 text-5xl font-bold">Creating the Digital Enterprise of Tomorrow</h1>
-                        <p className="mb-5">We help businesses propel into the digital service economy with our innovative solutions and advisory services. </p>
+                        <h1 className="mb-5 text-5xl font-bold text-gray-600">Creating the Digital Enterprise of Tomorrow</h1>
+                        <p className="mb-5 text-gray-600">We help businesses propel into the digital service economy with our innovative solutions and advisory services. </p>
                     </div>
                 </div>
             </div>
@@ -57,7 +56,6 @@ function Mission() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     );
 }

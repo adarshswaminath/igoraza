@@ -1,7 +1,7 @@
 import React from 'react';
 import heroImg from './images/career-hero.svg';
 import image from "./images/mission.svg"
-import Footer from "./Footer"
+
 function Career() {
   const data = [
     { role: "Delivery Manager", location: 'India', type: "Full Time" },
@@ -116,7 +116,6 @@ function Career() {
       </div>
       {/* box section end */}
 
-      <Footer />
     </div>
   );
 }
