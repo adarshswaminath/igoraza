@@ -82,8 +82,8 @@ function App() {
                   <Link to='/' onClick={handleHomeClick} className="block pl-4 text-black rounded md:bg-transparent md:text-violet-500 md:p-0 " aria-current="page">Home</Link>
                 </li>
                 <li className="nav-item mr-6">
-                  <a href="#mission" className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0  ">Mission</a>
-                  {/* <Link to='/mission' onClick={handleMissionClick} className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0">Mission</Link> */}
+                  {/* <a href="#mission" className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0  ">Mission</a> */}
+                  <Link to='/mission' onClick={handleMissionClick} className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0">Mission</Link>
                 </li>
                 <li className="nav-item mr-6">
                   <Link to="/service" onClick={handleServiceClick} className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-violet-500 md:p-0">Services</Link>
@@ -102,7 +102,7 @@ function App() {
           <>
             {/* <Navbar/>? */}
             <Hero />
-            <Mission id="mission" />
+            <Mission />
             <Explore />
             <Features />
             <Projects />
