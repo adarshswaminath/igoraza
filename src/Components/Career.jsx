@@ -21,7 +21,7 @@ function Career() {
     <div className="bg-gray-100">
       {/* hero section starts */}
       <div className="hero py-16  bg-white">
-        <div className="container flex flex-col lg:flex-row items-center justify-between">
+        <div className="container flex flex-col lg:flex-row items-center justify-between text-center">
           <div className="flex-1 lg:mr-16">
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6 lg:mb-12">
               Join our team
@@ -29,11 +29,11 @@ function Career() {
             <p className="text-lg lg:text-xl text-gray-600 mb-3 lg:mb-12">
               We're looking for talented individuals <br />.Who want to make a difference.
             </p>
-            <a href="#igoraza-career" className="btn bg-violet-500 hover:bg-violet-600 border-none text-lg lg:text-xl rounded-full px-6 py-3 mb-2">
+            <a href="#igoraza-career" className="btn bg-violet-500 hover:bg-violet-600 border-none text-lg lg:text-xl rounded-full px-6 py-3 mb-3">
               Apply Now
             </a>
           </div>
-          <div className="flex-1">
+          <div className="flex-1 p-3">
             <img src={heroImg} alt="Hero" className="mx-auto lg:max-w-none rounded-lg shadow-lg" />
           </div>
         </div>
@@ -45,8 +45,9 @@ function Career() {
           <div className="hero-content flex-col justify-center items-center lg:flex-row">
             <img src={image} className="max-w-sm rounded-lg shadow-2xl" />
             <div>
-              <h1 className="text-3xl font-bold">The values we live by,</h1>
-              <p className="py-3 text-gray-500">"The future doesn't belong to the fainthearted; <br />It belongs to the brave."</p>
+              <h1 className="text-3xl font-bold">The values we live by</h1>
+              <p className="p-2 text-gray-500">"The future doesn't belong to the fainthearted; 
+              <br />It belongs to the brave."</p>
 
               <div className="grid gap-3">
                 <div className="flex gap-2">

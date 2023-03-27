@@ -4,7 +4,7 @@ import MissionImg from './images/mission.svg';
 
 function Mission() {
   return (
-    <div className="bg-gray-100 pt-2 mb-4" id='mission'>
+    <div className="bg-gray-100 pt-2 mb-4">
         <div className="flex items-center justify-center p-5">
         <h1 className="text-4xl font-bold text-center md:text-left mt-8 mb-8 ">
             Mission & Vision
