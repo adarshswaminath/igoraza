@@ -43,7 +43,7 @@ function Career() {
       <div className="">
         <div className="hero bg-base-200">
           <div className="hero-content flex-col justify-center items-center lg:flex-row">
-            <img src={image} className="max-w-sm rounded-lg shadow-2xl" />
+          <img src={image} class="w-full lg:max-w-md mx-auto lg:ml-0 rounded-lg shadow-2xl lg:order-last" alt="Values Image" />
             <div>
               <h1 className="text-3xl font-bold">The values we live by</h1>
               <p className="p-2 text-gray-500">"The future doesn't belong to the fainthearted; 

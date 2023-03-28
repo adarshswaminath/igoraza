@@ -12,7 +12,7 @@ function Hero() {
               Start with something simple and small,then expand over time
             </p>
             <div className="">
-              <a href="#mission" 
+              <a href="#view" 
               className="px-12 py-3 border-2 border-gray-500 text-black hover:bg-violet-500 hover:text-white hover:border-none font-bold">Get Started</a>
             </div>
           </div>
