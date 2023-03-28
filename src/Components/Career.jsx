@@ -44,12 +44,12 @@ function Career() {
         <div className="hero bg-base-200">
           <div className="hero-content flex-col justify-center items-center lg:flex-row">
           <img src={image} class="w-full lg:max-w-md mx-auto lg:ml-0 rounded-lg shadow-2xl lg:order-last" alt="Values Image" />
-            <div>
+            <div className='items-center justify-center'>
               <h1 className="text-3xl font-bold">The values we live by</h1>
               <p className="p-2 text-gray-500">"The future doesn't belong to the fainthearted; 
               <br />It belongs to the brave."</p>
 
-              <div className="grid gap-3">
+              <div className="grid gap-3 items-center justify-center">
                 <div className="flex gap-2">
                   {/* box 1 */}
                   <button className="p-3 relative inline-flex items-center justify-start overflow-hidden transition-all bg-white rounded hover:bg-white group">
