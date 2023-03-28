@@ -103,8 +103,8 @@ function App() {
             {/* <Navbar/>? */}
             <Hero />
             <div id="view"></div>
-            <Mission />
             <Explore />
+            <Mission />
             <Features />
             <Projects />
           </>
