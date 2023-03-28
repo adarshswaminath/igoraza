@@ -44,9 +44,9 @@ function Career() {
         <div className="hero bg-base-200">
           <div className="hero-content flex-col justify-center items-center lg:flex-row">
           <img src={image} class="w-full lg:max-w-md mx-auto lg:ml-0 rounded-lg shadow-2xl lg:order-last" alt="Values Image" />
-            <div className='items-center justify-center'>
-              <h1 className="text-3xl font-bold">The values we live by</h1>
-              <p className="p-2 text-gray-500">"The future doesn't belong to the fainthearted; 
+            <div>
+              <h1 className="text-3xl font-bold text-center">The values we live by</h1>
+              <p className="p-2 text-gray-500 text-center">"The future doesn't belong to the fainthearted; 
               <br />It belongs to the brave."</p>
 
               <div className="grid gap-3 items-center justify-center">
