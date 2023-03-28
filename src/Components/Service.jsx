@@ -32,24 +32,24 @@ function Mission() {
                     </div>
                     <div className="md:w-1/2 flex flex-col justify-center">
                         <div className="grid grid-cols-1  lg:flex">
-                            <div className="bg-violet-500 text-white rounded-lg shadow-lg p-6">
+                            <div className="text-gray-700 bg-white rounded-lg shadow-lg p-6">
                                 <MdOutlineDeveloperMode className="text-4xl mb-4" />
                                 <h2 className="text-xl font-bold mb-2">App Development</h2>
                                 <p className="text-lg">If a dog chews shoes whose shoes does he choose?</p>
                             </div>
-                            <div className="bg-violet-500 text-white rounded-lg shadow-lg p-6 mt-4 lg:mt-0 lg:ml-4">
+                            <div className="text-gray-700 bg-white rounded-lg shadow-lg p-6 mt-4 lg:mt-0 lg:ml-4">
                                 <SiHiveBlockchain className="text-4xl mb-4" />
                                 <h2 className="text-xl font-bold mb-2">Blockchain Development</h2>
                                 <p className="text-lg">If a dog chews shoes whose shoes does he choose?</p>
                             </div>
                         </div>
                         <div className="grid grid-cols-1 lg:flex mt-2">
-                            <div className="bg-violet-500 text-white rounded-lg shadow-lg p-6">
+                            <div className="text-gray-700 bg-white rounded-lg shadow-lg p-6">
                                 <CgWebsite className="text-4xl mb-4" />
                                 <h2 className="text-xl font-bold mb-2">Web Development</h2>
                                 <p className="text-lg">If a dog chews shoes whose shoes does he choose?</p>
                             </div>
-                            <div className="bg-violet-500 text-white rounded-lg shadow-lg p-6 mt-4 lg:mt-0 lg:ml-4">
+                            <div className="text-gray-700 bg-white rounded-lg shadow-lg p-6 mt-4 lg:mt-0 lg:ml-4">
                                 <GiArtificialIntelligence className="text-4xl mb-4" />
                                 <h2 className="text-xl font-bold mb-2">AI Development</h2>
                                 <p className="text-lg">If a dog chews shoes whose shoes does he choose?</p>
