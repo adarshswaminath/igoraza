@@ -21,7 +21,7 @@ function Hero() {
             <img
               src={image}
               alt=""
-              className="object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128"
+              className="object-contain h-72 sm:h-82 lg:h-96 xl:h-112 2xl:h-128"
             />
           </div>
         </div>
