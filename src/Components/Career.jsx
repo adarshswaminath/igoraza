@@ -29,7 +29,7 @@ function Career() {
             <p className="text-lg lg:text-xl text-gray-600 mb-3 lg:mb-12">
               We're looking for talented individuals <br />.Who want to make a difference.
             </p>
-            <a href="#igoraza-career" className="btn bg-violet-500 hover:bg-violet-600 border-none text-lg lg:text-xl rounded-full px-6 py-3 mb-3">
+            <a href="#igoraza-career" className="btn bg-[#1d3557] hover:bg-violet-600 border-none text-lg lg:text-xl rounded-full px-6 py-3 mb-3">
               Apply Now
             </a>
           </div>
@@ -109,7 +109,7 @@ function Career() {
                 <div>{obj.role.split(" ").map((word, i) => <div key={i}>{word}</div>)}</div>
                 <div>{obj.location}</div>
                 <div>{obj.type}</div>
-                <div><button className="btn font-semibold bg-transparent text-black rounded-full hover:bg-white hover:text-violet-500 hover:border-violet-500">Click</button></div>
+                <div><button className="btn font-semibold bg-transparent text-black rounded-full hover:bg-white hover:text-[#1d3557] hover:border-[#1d3557]">Click</button></div>
               </div>
             ))}
           </div>

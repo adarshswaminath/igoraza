@@ -23,7 +23,7 @@ function Mission() {
             <div className="bg-base-200 shadow-2xl rounded-lg px-8 py-6">
               <div className="flex gap-2 text-3xl">
               <h2 className="font-bold mb-4">Mission</h2>
-              <BsFillRocketTakeoffFill className="text-violet-500" />
+              <BsFillRocketTakeoffFill className="text-[#1d3557]" />
               </div>
               <p className="py-6">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
@@ -34,7 +34,7 @@ function Mission() {
             <div className="bg-base-200 shadow-2xl rounded-lg px-8 py-6">
               <div className="flex gap-3 text-3xl">
                 <h2 className="font-bold mb-4">Vision</h2>
-                <BsBinocularsFill className='text-violet-500'/>
+                <BsBinocularsFill className='text-[#1d3557]'/>
               </div>
               <p className="py-6">
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
