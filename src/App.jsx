@@ -10,6 +10,7 @@ import Footer from './Components/Footer';
 import Projects from './Components/Projects';
 import Career from './Components/Career';
 import Service from './Components/Service';
+import logo from './assets/logo.png'
 
 
 function App() {
@@ -56,7 +57,7 @@ function App() {
             <div className="w-full relative flex justify-between lg:w-auto lg:static lg:justify-start">
               <div className="flex">
                 <div>
-                  <img src="https://flowbite.com/docs/images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
+                  <img src={logo} className="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
                 </div>
                 <div>
                   <a className="font-bold text-xl text-gray-600 ">IGORAZA</a>
