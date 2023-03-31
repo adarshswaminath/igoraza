@@ -10,7 +10,7 @@ function Testimonial() {
               Testimonials
             </h2>
             <p className="mb-8 font-light text-gray-500 lg:mb-16 sm:text-xl ">
-              Explore the whole collection of open-source web components and
+              About the whole collection of open-source web components and
               elements built with the utility classes from Tailwind
             </p>
           </div>

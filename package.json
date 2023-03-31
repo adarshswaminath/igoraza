@@ -11,6 +11,8 @@
   "dependencies": {
     "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^1.0.6",
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.278",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.9",
     "daisyui": "^2.51.4",

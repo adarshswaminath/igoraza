@@ -1,9 +1,9 @@
 import React from "react";
 import banner from "./images/banner.png"
-function Explore() {
+function About() {
   return (
     <div>
-      <div className="bg-gray-100 py-10 pt-2">
+      <div className="bg-gray-100 py-10 pt-2 mt-8">
         <div className="max-w-4xl mx-auto px-4">
           <h1 className="text-4xl font-bold text-center mb-8">About us</h1>
           <p className="text-center mb-8">
@@ -38,4 +38,4 @@ function Explore() {
   );
 }
 
-export default Explore;
+export default About;

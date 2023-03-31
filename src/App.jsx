@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 // import components
 import Hero from './Components/Hero';
-import Explore from './Components/Explore';
+import About from './Components/About';
 import Journey from './Components/Journey';
 import Mission from './Components/Mission';
 import Features from './Components/Features';
@@ -104,7 +104,7 @@ function App() {
             {/* <Navbar/>? */}
             <Hero />
             <div id="view"></div>
-            <Explore />
+            <About />
             <Mission />
             <Features />
             <Projects />
