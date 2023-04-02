@@ -1,7 +1,8 @@
 import React from 'react';
 import heroImg from './images/career-hero.svg';
 import image from "./images/mission.svg"
-
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Job from './Job';
 function Career() {
   const data = [
     { role: "Delivery Manager", location: 'India', type: "Full Time" },
@@ -109,7 +110,9 @@ function Career() {
                 <div>{obj.role.split(" ").map((word, i) => <div key={i}>{word}</div>)}</div>
                 <div>{obj.location}</div>
                 <div>{obj.type}</div>
-                <div><button className="btn font-semibold bg-transparent text-black rounded-full hover:bg-white hover:text-[#1d3557] hover:border-[#1d3557]">Click</button></div>
+                <div>
+                  <button className="btn font-semibold bg-transparent text-black rounded-full hover:bg-white hover:text-[#1d3557] hover:border-[#1d3557]">Click</button>
+                </div>
               </div>
             ))}
           </div>

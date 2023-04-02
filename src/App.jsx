@@ -52,7 +52,7 @@ function App() {
   return (
     <Router>
       <div className="overflow-x-hidden">
-        <nav className="bg-white fixed top-0 left-0 right-0 navbar flex flex-wrap items-center justify-between px-2 py-3">
+        <nav className="bg-white sticky top-0 left-0 right-0 navbar flex flex-wrap items-center justify-between px-2 py-3">
           <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
             <div className="w-full relative flex justify-between lg:w-auto lg:static lg:justify-start">
               <div className="flex">

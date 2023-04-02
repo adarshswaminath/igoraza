@@ -9,9 +9,10 @@ function Hero() {
             <h1 className="text-2xl mt-14 sm:text-6xl  leading-56 uppercase font-semibold">
               WELCOME TO IGORAZA
             </h1>
-            <p className="mt-3 mb-8 text-lg sm:mb-12">
-              Start with something simple and small,then expand over time
-            </p>
+            <div className="mt-3 mb-8 sm:mb-12">
+              <p>Start with something simple and small,</p>
+              <p>then expand over time</p>
+            </div>
             <div className="">
               <a href="#view" 
               className="px-12 py-3 border-2 border-gray-500 text-black hover:bg-[#1d3557] hover:text-white hover:border-none font-bold">Get Started</a>

@@ -8,7 +8,7 @@ import { MdPhoneCallback } from "react-icons/md";
 function Features() {
   return (
     <div className="bg-gray-100 py-10">
-      <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto sm:px-6 p-4 lg:px-8">
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">Features</h1>
 
         <div className="grid md:grid-cols-4 gap-6 justify-items-center">
