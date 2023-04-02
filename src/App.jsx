@@ -18,34 +18,34 @@ function App() {
 
   const [showCareer, setShowCareer] = useState(false);
   const [showService, setShowService] = useState(false);
-  const [showMission, setShowMission] = useState(false);
+  const [showProjects, setshowProjects] = useState(false);
 
 
   const handleCareerClick = () => {
     setShowCareer(true);
     setShowService(false);
-    setShowMission(false);
+    setshowProjects(false);
     setNavbarOpen(!navbarOpen)
   };
 
   const handleHomeClick = () => {
     setShowCareer(false);
     setShowService(false);
-    setShowMission(false);
+    setshowProjects(false);
     setNavbarOpen(!navbarOpen)
   };
 
   const handleServiceClick = () => {
     setShowCareer(false);
     setShowService(true);
-    setShowMission(false);
+    setshowProjects(false);
     setNavbarOpen(!navbarOpen)
   };
 
-  const handleMissionClick = () => {
+  const handleProjectsClick = () => {
     setShowCareer(false);
     setShowService(false);
-    setShowMission(true);
+    setshowProjects(true);
     setNavbarOpen(!navbarOpen)
   }
 
@@ -84,7 +84,7 @@ function App() {
                 </li>
                 <li className="nav-item mr-6">
                   {/* <a href="#mission" className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#1d3557] md:p-0  ">Mission</a> */}
-                  <Link to='/mission' onClick={handleMissionClick} className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#1d3557] md:p-0">Mission</Link>
+                  <Link to='/projects' onClick={handleProjectsClick} className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#1d3557] md:p-0">Projects</Link>
                 </li>
                 <li className="nav-item mr-6">
                   <Link to="/service" onClick={handleServiceClick} className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#1d3557] md:p-0">Services</Link>
@@ -99,7 +99,7 @@ function App() {
             </div>
           </div>
         </nav>
-        {(!showCareer && !showService && !showMission) && (
+        {(!showCareer && !showService && !showProjects) && (
           <>
             {/* <Navbar/>? */}
             <Hero />
@@ -107,7 +107,6 @@ function App() {
             <Explore />
             <Mission />
             <Features />
-            <Projects />
           </>
         )}
 
@@ -118,8 +117,8 @@ function App() {
           {showService && (
             <Route exact path='/service' element={<Service />} ></Route>
           )}
-          {showMission && (
-            <Route exact path='/mission' element={<Mission />} ></Route>
+          {showProjects && (
+            <Route exact path='/projects' element={<Projects />} ></Route>
           )}
         </Routes>
         <Footer />

@@ -26,9 +26,7 @@ function Mission() {
               <BsFillRocketTakeoffFill className="text-[#1d3557]" />
               </div>
               <p className="py-6">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-                excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a
-                id nisi.
+              Our mission is to employ technology to aid people and organisations in accomplishing their goals. We foster growth by providing scalable and sustainable solutions.
               </p>
             </div>
             <div className="bg-base-200 shadow-2xl rounded-lg px-8 py-6">
@@ -37,9 +35,8 @@ function Mission() {
                 <BsBinocularsFill className='text-[#1d3557]'/>
               </div>
               <p className="py-6">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-                excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a
-                id nisi.
+              Igoraza utilises cutting-edge technologies to create ground-breaking innovations that improve lives. 
+              We are dedicated to providing high-quality results through collaborative and versatile processes.
               </p>
             </div>
           </div>

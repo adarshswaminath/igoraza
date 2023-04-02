@@ -3,7 +3,7 @@ import React from "react";
 function Projects() {
   return (
     <div>
-      <div className="bg-gray-100 py-10 ">
+      <div className="bg-gray-100 py-10 mt-12">
         <div className="max-w-7xl mx-auto  sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
             Our Products
