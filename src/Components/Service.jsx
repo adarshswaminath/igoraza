@@ -11,7 +11,7 @@ function Mission() {
             <div className="hero min-h-screen bg-white text-gray-600" >
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
-                        <h1 className="mb-5 text-5xl font-bold text-gray-600">Creating the Digital Enterprise of Tomorrow</h1>
+                        <h1 className="mb-5 text-4xl font-bold text-gray-600">IGORAZA Industrials</h1>
                         <p className="mb-5 text-gray-600">We help businesses propel into the digital service economy with our innovative solutions and advisory services. </p>
                     </div>
                 </div>
