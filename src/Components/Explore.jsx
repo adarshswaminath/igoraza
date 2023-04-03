@@ -17,10 +17,10 @@ function Explore() {
             <h2 className="text-xl font-bold mb-2">
               IGORAZA: Advancing Humanity Through Innovation
             </h2>
-            <p className="text-lg mb-8 shadow-lg bg-base-400 p-4">
+            <p className="text-lg bg-base-400 p-4">
               IGORAZA is a progressive technological startup established by a consortium of passionate engineers. We are determined to advance humanity through slashing-edge technology innovations. By employing the most up-to-date software and techniques, we focus on creating and establishing exceptional solutions for our clients.
             </p>
-            <div className="shadow-lg bg-base-400 w-82 p-4">
+            <div className="bg-base-400 w-82 p-4">
               <p className="text-lg">
               Our team is motivated by a passion for technology and a commitment to delivering incredible results. If you're seeking an engineering partner that can help you accomplish your objectives, we encourage you to get in touch with IGORAZA right away to learn more about our services.
             </p>
