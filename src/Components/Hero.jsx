@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div>
       <section className="text-gray-700 bg-gray-100 mb-3">
-        <div className="hero h-screen bg-cover bg-no-repeat bg-center relative">
+        <div className="hero h-screen bg-cover bg-no-repeat bg-center relative" style={{ backgroundImage: `url("https://images.rawpixel.com/image_600/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjkwNC1udW5ueS0wMTAtZl8xLmpwZw.jpg")` }}>
           <div className="bg-gradient-to-b from-transparent to-gray-900 h-full w-full absolute"></div>
           <div className="hero-content flex-col lg:flex-row-reverse h-full">
             <div className="flex flex-col justify-center px-4 lg:px-0 lg:ml-8 xl:ml-16 2xl:ml-24">
