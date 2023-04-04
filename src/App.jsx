@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState ,useEffect} from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 // import components
 import Hero from './Components/Hero';
@@ -14,12 +14,18 @@ import logo from './assets/logo.png'
 
 
 function App() {
+  const [loading,setLoading] = useState(false)
   const [navbarOpen, setNavbarOpen] = useState(false);
-
   const [showCareer, setShowCareer] = useState(false);
   const [showService, setShowService] = useState(false);
   const [showProjects, setshowProjects] = useState(false);
 
+  useEffect(() => {
+    setLoading(false)
+    setTimeout(() => {
+      setLoading(true)
+    })
+  })
 
   const handleCareerClick = () => {
     setShowCareer(true);
@@ -84,7 +90,7 @@ function App() {
                 </li>
                 <li className="nav-item mr-6">
                   {/* <a href="#mission" className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#1d3557] md:p-0  ">Mission</a> */}
-                  <Link to='/projects' onClick={handleProjectsClick} className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#1d3557] md:p-0">Projects</Link>
+                  <Link to='/products' onClick={handleProjectsClick} className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#1d3557] md:p-0">Products</Link>
                 </li>
                 <li className="nav-item mr-6">
                   <Link to="/service" onClick={handleServiceClick} className="block pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#1d3557] md:p-0">Services</Link>
@@ -118,7 +124,7 @@ function App() {
             <Route exact path='/service' element={<Service />} ></Route>
           )}
           {showProjects && (
-            <Route exact path='/projects' element={<Projects />} ></Route>
+            <Route exact path='/products' element={<Projects />} ></Route>
           )}
         </Routes>
         <Footer />
