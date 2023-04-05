@@ -66,7 +66,7 @@ function App() {
                   <img src={logo} className="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
                 </div>
                 <div>
-                  <a className="font-bold text-xl text-gray-600 ">IGORAZA</a>
+                  <a className="font-bold text-xl text-[#e83747] ">IGORAZA</a>
                 </div>
               </div>
               <button

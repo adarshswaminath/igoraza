@@ -17,51 +17,51 @@ function Projects() {
             </div>
           </section>
           {/* what we are */}
-          <div class="bg-white rounded-lg shadow-lg p-6">
-            <h2 class="text-3xl font-bold mb-4">What We Are</h2>
-            <div class="grid gap-4 sm:grid-cols-2">
-              <div class="bg-gray-100 rounded-lg p-4">
-                <p class="text-lg text-gray-800 leading-snug">
+          <div className="bg-white rounded-lg shadow-lg p-6">
+            <h2 className="text-3xl font-bold mb-4">What We Are</h2>
+            <div className="grid gap-4 sm:grid-cols-2">
+              <div className="bg-gray-100 rounded-lg p-4">
+                <p className="text-lg text-gray-800 leading-snug">
                   We are dedicated to helping aspiring entrepreneurs and young professionals unleash their creativity and achieve success.
                 </p>
               </div>
-              <div class="bg-gray-100 rounded-lg p-4">
-                <p class="text-lg text-gray-800 leading-snug">
+              <div className="bg-gray-100 rounded-lg p-4">
+                <p className="text-lg text-gray-800 leading-snug">
                   Our team of experienced mentors and business leaders is passionate about providing the resources and tools that young professionals need to thrive in today's fast-paced, dynamic business environment.
                 </p>
               </div>
             </div>
-            <div class="mt-4 bg-gray-100 rounded-lg p-4">
-              <p class="text-lg text-gray-800 leading-snug">
+            <div className="mt-4 bg-gray-100 rounded-lg p-4">
+              <p className="text-lg text-gray-800 leading-snug">
                 We provide a range of useful workshops and programmes that are geared towards helping you advance your profession or business. We have the resources and technical expertise to support you regardless of whether you're an aspiring entrepreneur looking to start your own business or a young professional looking to improve your skills and expertise.
               </p>
             </div>
           </div>
 
           {/* product box */}
-          <div class="px-4 py-8 sm:px-6 lg:px-8">
-            <h1 class="text-4xl font-bold text-center text-gray-800 mb-6 mt-6">Our Products</h1>
+          <div className="px-4 py-8 sm:px-6 lg:px-8">
+            <h1 className="text-4xl font-bold text-center text-gray-800 mb-6 mt-6">Our Products</h1>
             <div className="grid md:grid-cols-3 gap-3 justify-center items-center lg:flex">
-              {/* <div class="grid grid-cols-1 gap-6 md:grid-cols-3 lg:flex justify-center mx-auto"> */}
-              <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
-                <img class="w-full h-56 object-cover object-center" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Collab Workshops" />
-                <div class="px-4 py-2">
-                  <h2 class="text-gray-800 font-bold text-2xl mb-2">Collab Workshops</h2>
-                  <p class="text-gray-600 text-sm">Our collab workshops bring together like-minded individuals who are passionate about entrepreneurship, innovation, and collaboration. Participants will work on real-world projects, learn from industry experts, and develop the skills they need to succeed in today's competitive business environment.</p>
+              {/* <div className="grid grid-cols-1 gap-6 md:grid-cols-3 lg:flex justify-center mx-auto"> */}
+              <div className="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
+                <img className="w-full h-56 object-cover object-center" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Collab Workshops" />
+                <div className="px-4 py-2">
+                  <h2 className="text-gray-800 font-bold text-2xl mb-2">Collab Workshops</h2>
+                  <p className="text-gray-600 text-sm">Our collab workshops bring together like-minded individuals who are passionate about entrepreneurship, innovation, and collaboration. Participants will work on real-world projects, learn from industry experts, and develop the skills they need to succeed in today's competitive business environment.</p>
                 </div>
               </div>
-              <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden mt-6 md:mt-0">
-                <img class="w-full h-56 object-cover object-center" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Incubation Programme" />
-                <div class="px-4 py-2">
-                  <h2 class="text-gray-800 font-bold text-2xl mb-2">Incubation Programme</h2>
-                  <p class="text-gray-600 text-sm">Our incubation programmes offer aspiring business owners the assistance and tools they need to start their own companies. Mentorship, training, funding, and access to other resources will be provided to participants in order to assist them in transforming their ideas into profitable businesses.</p>
+              <div className="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden mt-6 md:mt-0">
+                <img className="w-full h-56 object-cover object-center" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Incubation Programme" />
+                <div className="px-4 py-2">
+                  <h2 className="text-gray-800 font-bold text-2xl mb-2">Incubation Programme</h2>
+                  <p className="text-gray-600 text-sm">Our incubation programmes offer aspiring business owners the assistance and tools they need to start their own companies. Mentorship, training, funding, and access to other resources will be provided to participants in order to assist them in transforming their ideas into profitable businesses.</p>
                 </div>
               </div>
-              <div class="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden mt-6 md:mt-0">
-                <img class="w-full h-56 object-cover object-center" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Internship Programs" />
-                <div class="px-4 py-2">
-                  <h2 class="text-gray-800 font-bold text-2xl mb-2">Internship Programs</h2>
-                  <p class="text-gray-600 text-sm">Our internship programs provide young professionals with hands-on experience in their chosen fields. Participants will work on real-world projects, gain valuable experience, and build the skills they need to succeed in their careers.<br /></p>
+              <div className="max-w-xs bg-white shadow-lg rounded-lg overflow-hidden mt-6 md:mt-0">
+                <img className="w-full h-56 object-cover object-center" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Internship Programs" />
+                <div className="px-4 py-2">
+                  <h2 className="text-gray-800 font-bold text-2xl mb-2">Internship Programs</h2>
+                  <p className="text-gray-600 text-sm">Our internship programs provide young professionals with hands-on experience in their chosen fields. Participants will work on real-world projects, gain valuable experience, and build the skills they need to succeed in their careers.<br /></p>
                 </div>
               </div>
             </div>
