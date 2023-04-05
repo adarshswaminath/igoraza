@@ -14,7 +14,7 @@ function Mission() {
         <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0">
           <img
             src={MissionImg}
-            className="rounded-lg shadow-2xl w-full"
+            className="w-full"
             alt="Mission"
           />
         </div>
