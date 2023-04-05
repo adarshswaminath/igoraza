@@ -61,7 +61,7 @@ function Projects() {
                 <img className="w-full h-56 object-cover object-center" src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Internship Programs" />
                 <div className="px-4 py-2">
                   <h2 className="text-gray-800 font-bold text-2xl mb-2">Internship Programs</h2>
-                  <p className="text-gray-600 text-sm">Our internship programs provide young professionals with hands-on experience in their chosen fields. Participants will work on real-world projects, gain valuable experience, and build the skills they need to succeed in their careers.<br /></p>
+                  <p className="text-gray-600 text-sm ">Our internship programs offer mentorship opportunities and networking events to help participants grow their professional network and gain insights into the industry. We believe in investing in the next generation of talent and providing them with the resources and support they need to reach their full potential</p>
                 </div>
               </div>
             </div>

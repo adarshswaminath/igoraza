@@ -35,7 +35,7 @@ function Career() {
             </a>
           </div>
           <div className="flex-1 p-3">
-            <img src={heroImg} alt="Hero" className="mx-auto lg:max-w-none rounded-lg shadow-lg" />
+            <img src={heroImg} alt="Hero" className="mx-auto lg:max-w-none" />
           </div>
         </div>
       </div>
@@ -44,7 +44,7 @@ function Career() {
       <div className="">
         <div className="hero bg-base-200">
           <div className="hero-content flex-col justify-center items-center lg:flex-row">
-          <img src={image} className="w-full lg:max-w-md mx-auto lg:ml-0 rounded-lg shadow-2xl lg:order-last" alt="Values Image" />
+          <img src={image} className="w-full lg:max-w-md mx-auto lg:ml-0 lg:order-last" alt="Values Image" />
             <div>
               <h1 className="text-3xl font-bold text-center">The values we live by</h1>
               <p className="p-2 text-gray-500 text-center">"The future doesn't belong to the fainthearted; 
