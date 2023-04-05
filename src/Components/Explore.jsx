@@ -3,7 +3,7 @@ import banner from "./images/banner.png";
 
 function Explore() {
   return (
-    <div className="bg-gray-100 ">
+    <div className="bg-gray-100 " id="about">
       <div className="max-w-4xl mx-auto px-4">
         <h1 className="text-4xl font-bold text-center mb-8">About Us</h1>
         <div className="lg:flex gap-4">

@@ -15,7 +15,7 @@ function Hero() {
                 <p>Start with something simple and small,</p>
                 <p>then expand over time</p>
               </p>
-              <a className="btn w-40 lg:w-96 mx-auto border-none rounded-full bg-[#1d3557] hover:bg-[#1d3545] text-white font-bold uppercase tracking-wider">
+              <a href="#about" className="btn w-40 lg:w-96 mx-auto border-none rounded-full bg-[#1d3557] hover:bg-[#1d3545] text-white font-bold uppercase tracking-wider">
                 Get Started
               </a>
             </div>
