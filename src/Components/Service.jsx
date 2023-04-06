@@ -54,7 +54,7 @@ function Mission() {
                         <div className="text-gray-700 bg-white rounded-lg shadow-lg p-6">
                             <SiHiveBlockchain className="text-4xl mb-4" />
                             <h2 className="text-xl font-bold mb-2">Blockchain Development</h2>
-                            <p className="text-lg">A proficient partner for solutions in app development. Our team of astute developers dedicated to providing top-notch apps that are tailored to satisfy your unique obligations and objectives. We're devoted to supporting you in accomplishing what you seek and slashing out the competition. Our team of developers and designers bring years of experience and deep industry knowledge to every project, ensuring that your app is of the highest quality and delivers the results you need. We're committed to delivering exceptional value and helping you achieve your objectives. We provide both IOS and playstore release for the apps ensuring wider usage and acceptability</p>
+                            <p className="text-lg">Blockchain technology is a secure and decentralized way to record transactions and store data. It allows for transparent and immutable records, making it ideal for a variety of industries, from finance to healthcare to logistics.</p>
                         </div>
                     </div>
                     <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0 mt-2">

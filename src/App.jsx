@@ -6,6 +6,7 @@ import Explore from './Components/Explore';
 import Journey from './Components/Journey';
 import Mission from './Components/Mission';
 import Features from './Components/Features';
+import Job from './Components/Job';
 import Footer from './Components/Footer';
 import Projects from './Components/Projects';
 import Career from './Components/Career';
@@ -126,6 +127,7 @@ function App() {
           {showProjects && (
             <Route exact path='/products' element={<Projects />} ></Route>
           )}
+          <Route exact path='/apply' element={<Job/>}></Route>
         </Routes>
         <Footer />
       </div>
