@@ -34,7 +34,7 @@ function Mission() {
                         <div className="text-gray-300 bg-[#1d3557] rounded-lg shadow-lg p-6">
                             <MdOutlineDeveloperMode className="text-4xl mb-4" />
                             <h2 className="text-xl font-bold mb-2">App Development</h2>
-                            <p className="text-lg">A proficient partner for solutions in app development. Our team of astute developers dedicated to providing top-notch apps that are tailored to satisfy your unique obligations and objectives. We're devoted to supporting you in accomplishing what you seek and slashing out the competition. Our team of developers and designers bring years of experience and deep industry knowledge to every project, ensuring that your app is of the highest quality and delivers the results you need. We're committed to delivering exceptional value and helping you achieve your objectives. We provide both IOS and playstore release for the apps ensuring wider usage and acceptability</p>
+                            <p className="text-lg">We provide top-notch, customized app development solutions for businesses seeking to stand out in their industry. Our experienced team delivers exceptional value and results, with both IOS and playstore releases available.</p>
                         </div>
                     </div>
 
@@ -44,13 +44,13 @@ function Mission() {
                                 <CgWebsite className="text-4xl mb-4" />
                                 <h2 className="text-xl font-bold mb-2">Website Design & Development</h2>
                                 <p className="text-lg">
-                                    We intricately link up with customers at the big business level to create exceptional, secure, high performing custom sites with an emphasis on engaging, expert website architecture. Web development is, inevitably, a core component of all enterprises and cannot be abandoned. It may seem challenging to pinpoint the ideal web developer that suits you and your company among the multitudes available on the market. Frequently, before attempting to reach your company in person, customers would first evaluate out your website. The first impression they have of your firm is created there, and your website's aesthetic has a 94% positive impact on that impression.</p>
+                                We create exceptional, secure, and high-performing custom websites for big businesses with engaging, professional designs. Your website is often the first impression customers have of your company, so it's crucial to have a visually appealing site. You can rely on us to deliver a website that performs well.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row">
-                    <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0 mt-2">
+                    <div className="md:w-1/2 md:pr-8 mb-8 md:mb-0 mt-1">
                         <div className="text-gray-700 bg-white rounded-lg shadow-lg p-6">
                             <SiHiveBlockchain className="text-4xl mb-4" />
                             <h2 className="text-xl font-bold mb-2">Blockchain Development</h2>
@@ -62,7 +62,7 @@ function Mission() {
                             <MdOutlineConstruction className="text-4xl mb-4" />
                             <h2 className="text-xl font-bold mb-2">Website Reconstruct</h2>
                             <p className="text-lg">
-                            Our primary objective is to provide your website with a fresh, elegant, and streamlined look and feel. We understand that staying one step ahead of the competition is paramount, whether it's through updating your website with innovative plugins, refreshing your content, or enhancing user experience and functionality with seamless integration. With our comprehensive services for website reconstruction, we offer an in-depth overview to ensure your website delivers a persuasive message and appearance that resonates with your visitors. Let us help you elevate your online presence with a modern, visually appealing, and responsive website that sets you apart from the competition</p>
+                            Our objective is to provide your website with a fresh, elegant, and streamlined look, while staying ahead of the competition through innovative plugin updates, content refreshing, and seamless integration for improved user experience and functionality</p>
                         </div>
                     </div>
 
