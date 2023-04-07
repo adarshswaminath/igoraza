@@ -127,7 +127,7 @@ function App() {
           {showProjects && (
             <Route exact path='/products' element={<Projects />} ></Route>
           )}
-          <Route exact path='/apply' element={<Job/>}></Route>
+          <Route exact path='/apply' element={<Job role="developer"/>}></Route>
         </Routes>
         <Footer />
       </div>

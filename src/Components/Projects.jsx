@@ -20,15 +20,15 @@ function Projects() {
             </div>
           </section>
           {/* what we are */}
-          <div className="bg-white rounded-lg shadow-lg p-6">
-            <h2 className="text-3xl font-bold mb-4">What We Are</h2>
+          <div className="rounded-lg shadow-lg p-6 bg-[#1d3557]">
+            <h2 className="text-3xl font-bold mb-4 text-white">What We Are</h2>
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="bg-gray-100 rounded-lg p-4">
                 <p className="text-lg text-gray-800 leading-snug">
                   We are dedicated to helping aspiring entrepreneurs and young professionals unleash their creativity and achieve success.
                 </p>
               </div>
-              <div className="bg-gray-100 rounded-lg p-4">
+              <div className="bg-gray-100 rounded-lg p-4 shadow-lg">
                 <p className="text-lg text-gray-800 leading-snug">
                   Our team of experienced mentors and business leaders is passionate about providing the resources and tools that young professionals need to thrive in today's fast-paced, dynamic business environment.
                 </p>

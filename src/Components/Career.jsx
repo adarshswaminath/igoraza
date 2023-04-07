@@ -111,7 +111,7 @@ function Career() {
                 <div>{obj.location}</div>
                 <div>{obj.type}</div>
                 <div>
-                  <Link to='/apply'><button className="btn font-semibold bg-transparent text-black rounded-full hover:bg-white hover:text-[#1d3557] hover:border-[#1d3557]">Click</button></Link>
+                  <Link to='/apply' state={obj.role}><button className="btn font-semibold bg-transparent text-black rounded-full hover:bg-white hover:text-[#1d3557] hover:border-[#1d3557]">Click</button></Link>
                 </div>
               </div>
             ))}
