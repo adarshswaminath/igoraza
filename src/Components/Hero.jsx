@@ -8,7 +8,7 @@ function Hero() {
           <div className="hero-content flex-col lg:flex-row-reverse">
             <img src={image} className="max-w-sm" />
             <div>
-              <h1 className="text-5xl font-raleway font-extrabold">Welcome To IGORAZA</h1>
+              <h1 className="text-5xl font-raleway font-extrabold">WELCOME TO IGORAZA</h1>
               <p className="py-6 text-lg">
                 <p>Start with something simple and small,</p>
                 <p>then expand over time</p>

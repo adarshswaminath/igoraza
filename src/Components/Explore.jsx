@@ -9,7 +9,7 @@ function Explore() {
       <img src={banner} class="mb-4 lg:mb-0 lg:mr-4" />
       <div class="text-center lg:text-left">
         <h1 class="text-4xl lg:text-5xl font-bold p-4">About us</h1>
-        <p class="text-lg leading-7 bg-gray-100 p-6 border-l-4 border-blue-700">
+        <p class="text-lg leading-7 bg-gray-100 p-6">
           <span class="font-bold">IGORAZA</span> is a progressive technological startup established by a consortium of passionate engineers. We are determined to advance humanity through slashing-edge technology innovations. By employing the most up-to-date software and techniques, we focus on creating and establishing exceptional solutions for our clients.
 
           <br class="hidden md:block"/>
