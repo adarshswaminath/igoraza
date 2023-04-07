@@ -74,7 +74,7 @@ const Job = (props) => {
         <section className="mt-16 bg-gray-100 py-16">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-semibold text-gray-800 text-center mb-8">
-              Join our team and make a difference!
+            Join Our Team as a {propsData}
             </h2>
             <p className="text-gray-600 text-center">
               If you are passionate about technology, innovation, and delivering outstanding results, we would love to hear
